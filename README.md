@@ -2,5 +2,5 @@
 
 Team: Ich mache einen Spiegel (Julius Enderwitz, Hae In Keum)
 
-This project predicts user churn using activity logs.
-We use time-aware sliding windows to extract behavioral features and frame churn prediction as a binary classification problem.
+This project predicts music streaming user churn using event-level log data and a time-aware sliding window approach to prevent data leakage.
+User behavior is aggregated into window-based features, with threshold tuning.
